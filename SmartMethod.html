@@ -1,0 +1,224 @@
+<html>
+<head>
+<title> Control panel </title>
+
+<style>
+body{
+
+    /*background-color:grey;*/
+    background-image: url("robo.png" ) ;
+}
+
+
+.list{
+   position: absolute;
+   top:50%;
+   left:50%;
+   transform:translate(-50%,-50%) ;
+   margin: 0;
+   padding: 0;
+
+   display: flex;
+}
+
+.right{
+    position: absolute;
+    top: 50%;
+    
+    margin: 0;
+    padding: 0;
+    display: flex;
+}
+h1{
+    margin-top: 16%;
+    margin-left: 35%;
+    font-size: 40px;
+    font-weight:700;
+    color:indigo;
+    font-family: 'Courier New', Courier, monospace;
+    font-style: italic;
+  
+
+
+}
+ /*ul li{
+     list-style: none;
+     width: 80px;
+     height: 80px;
+     background:white;
+     margin: 0 10px;
+     border-radius: 20%;
+     transition: .5s; }*/
+     #corner{
+  position: absolute;
+  top: 8px;
+  left: 16px;
+}
+    button:hover{
+        background: gold;}
+
+       /* ul li span{
+           position: absolute;
+           width: 20px;
+           height: 20px;
+           transition: .5s;}*/
+
+            .R{
+
+               top:50%;
+               left: 86.5%;
+
+               border: 4px solid #fff;
+               transform: translateY(-50%) rotate(-45deg);
+               border-left: none;
+               border-top: none;
+               position: absolute;
+               width: 20px;
+               height: 20px;
+               transition: .5s;}
+
+               .L{
+
+                top:50%;
+               left: 68.5%;
+
+               border: 4px solid #fff;
+               transform: translateY(-50%) rotate(-45deg);
+               border-right: none;
+               border-bottom: none;
+               position: absolute;
+               width: 20px;
+               height: 20px;
+               transition: .5s;
+
+               } 
+               .F{
+
+                top:55%;
+               left: 27.5%;
+
+               border: 4px solid #fff;
+               transform: translateY(-50%) rotate(-45deg);
+              /* border-top: none;
+               border-right: none;*/
+               border-bottom: none;
+               border-left: none;
+               position: absolute;
+               width: 20px;
+               height: 20px;
+               
+               transition: .5s;
+
+               }
+               .B{
+                top:45%;
+               left: 7.5%;
+
+               border: 4px solid #fff;
+               transform: translateY(-50%) rotate(-45deg);
+               border-top: none;
+               border-right: none;
+              
+               position: absolute;
+               width: 20px;
+               height: 20px;
+               transition: .5s;
+
+               }
+               .S{
+
+                top:50%;
+               left: 48%;
+
+               border: 4px solid #fff;
+               transform: translateY(-50%) rotate(-0deg);
+               border-top: none;
+               border-bottom: none;
+              
+               position: absolute;
+               width: 10px;
+               height: 25px;
+               transition: .5s}
+               .Stop:hover{
+                   background: red;
+               }
+               .Stop{
+                   margin-left: 10;
+                   margin-right: 10;
+               }
+               .BA{
+                   margin-left: 10;
+                   margin-right: 10;
+               }
+               .FW{
+                   margin-left: 10;
+                   margin-right: 10;
+               }
+               .Le{
+                   margin-left: 10;
+                   margin-right: 10;
+               }
+               .Ri{
+                   margin-left: 10;
+                   margin-right: 10;
+               }
+           button {
+  background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  padding: 20px;
+  width: 80px;
+  height: 80px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  outline:none;
+  border-radius: 12px;
+  
+}
+</style>
+</head>
+
+
+<body alt=img>
+    <P><h1>Control Panel</h1></P>
+    <img src="logo.png" alt="logo" style="width:200px;height:100px"; id="corner">
+    <div class ="list"> 
+        
+        <button class="BA"> <span class="B"> </span> </button> 
+   
+   <button class="FW" ><span class="F" ></span></button> 
+   <button class="Stop"> <span class="S">  </span> </button>
+    <button class="Le"><span class="L"> </span></button>
+   <button class="Ri" ><span class="R"> </span>  </button>
+
+</div>  
+
+<!-- <div>
+<ul class="list2">
+   <li class="perv"> <span>  </span></li>
+   <li class="next"> <span>  </span></li>
+   <li class="up"> <span>  </span></li>
+   <li class="down"> <span>  </span></li>
+   <li class="stop"> <span></span></li>
+
+</ul>
+
+
+
+</div>
+-->
+
+
+
+</body>
+
+
+
+
+
+
+</html>
